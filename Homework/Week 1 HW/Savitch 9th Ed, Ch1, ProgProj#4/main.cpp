@@ -12,7 +12,7 @@ using namespace std;
 //user libraries
 
 //global constants
-const short GRAVITY=32;
+const short GRAVITY=32;//gravitational rate of acceleration
 
 //function prototypes
 
@@ -21,8 +21,8 @@ const short GRAVITY=32;
 
 int main(int argc, char** argv) {
     //Declare variables
-    short time;
-    short distance;
+    short time;//freefall time
+    short distance;//freefall distance
     
     //Prompt user for input
     cout<<"This program is designed to show how far an object would"<<endl;
@@ -33,11 +33,13 @@ int main(int argc, char** argv) {
     cin>>time; 
     
     //Begin calculating the freefall distance
-    distance=(GRAVITY*(time*time))/2;
+    distance=(GRAVITY*(time*time))/2; //Book formula for calculating the freefall distance
     
     //Display output
     
     cout<<"The object would fall "<<distance<<" feet in freefall."<<endl;
+    
+    //Exit stage right
 
     return 0;
 }

@@ -20,7 +20,7 @@ using namespace std;
 
 int main(int argc, char** argv) {
 //Declare variables
-  short int1, int2, sum, product;
+  short int1, int2, sum, product;//The numbers to be inputted, the result of +/*
   
   //Prompt user for input
   cout<<"This program adds and multiplies two different integers,"<<endl;
@@ -42,11 +42,6 @@ int main(int argc, char** argv) {
   
   //exit stage right
   
-    
- 
-   
-    
-    
     return 0;
 }
 
