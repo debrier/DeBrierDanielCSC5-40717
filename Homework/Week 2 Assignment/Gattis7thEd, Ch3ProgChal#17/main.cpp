@@ -1,7 +1,7 @@
 /* 
  * File:   main.cpp
- * Author: rcc
- *
+ * Author: Daniel DeBrier
+ *Purpose: Finding the monthly payments on a car loan
  * Created on January 12, 2015, 11:38 AM
  */
 
